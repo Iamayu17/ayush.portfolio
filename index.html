@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Kumar — Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Ayush Kumar, a Pune-based full-stack developer building scalable AEM platforms, responsive React and Angular interfaces, and the Java services behind them.">
+  <meta name="author" content="Ayush Kumar">
+  <meta name="theme-color" content="#0a0a0b">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ayush Kumar — Full-Stack Developer">
+  <meta property="og:description" content="Adobe Certified full-stack developer building AEM platforms, React & Angular interfaces, and the Java services behind them.">
+  <meta property="og:image" content="assets/img/about.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="assets/img/ayu_logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script>
+    (function () {
+      document.documentElement.classList.add('js');
+      try {
+        var saved = localStorage.getItem('ayu-theme');
+        var prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+        document.documentElement.dataset.theme = saved || (prefersLight ? 'light' : 'dark');
+      } catch (e) { /* ignore */ }
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ayush Kumar",
+    "jobTitle": "Full-Stack Developer",
+    "email": "mailto:ayushkumarsep1998@gmail.com",
+    "telephone": "+91-9834501361",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pune",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "alumniOf": "Kalinga Institute of Industrial Technology",
+    "knowsAbout": ["Adobe Experience Manager", "AEM Integration", "Adobe Analytics", "Java", "React", "Angular", "JavaScript", "Apache Sling", "OSGi", "REST APIs"],
+    "sameAs": [
+      "https://www.linkedin.com/in/ayush-kumar-b06b93176/",
+      "https://github.com/Iamayu17",
+      "https://www.instagram.com/ayu.sh.kumar/",
+      "https://iamayu17.github.io/ayu/"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ==================== SVG ICON SPRITE ==================== -->
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></symbol>
+    <symbol id="i-command" viewBox="0 0 24 24"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+    <symbol id="i-server" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0 0 20 2.5 2.5 0 0 0 2.5-2.5c0-.61-.24-1.2-.66-1.63a2.5 2.5 0 0 1 1.77-4.27H18a4 4 0 0 0 4-4 10 10 0 0 0-10-8z"/><circle cx="7.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16.5" cy="10.5" r="1"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2l1.9 5.8L20 9.7l-5.4 3.1L15.5 19 12 15.6 8.5 19l.9-6.2L4 9.7l6.1-1.9z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+    <symbol id="i-graduation" viewBox="0 0 24 24"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></symbol>
+    <symbol id="i-terminal" viewBox="0 0 24 24"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></symbol>
+  </svg>
+
+  <!-- ==================== PRELOADER ==================== -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__top">
+      <span>PORTFOLIO / 2026</span>
+      <span>PUNE, IN</span>
+    </div>
+    <div class="preloader__center">
+      <img src="assets/img/ayu_logo.png" alt="" class="preloader__logo" width="64" height="64">
+      <p class="preloader__name">AYUSH<br>KUMAR</p>
+    </div>
+    <div class="preloader__bottom">
+      <span class="preloader__count" id="preloader-count">00</span>
+      <div class="preloader__track"><span id="preloader-bar"></span></div>
+    </div>
+  </div>
+
+  <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursor-ring" aria-hidden="true"><span id="cursor-label"></span></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-bar"></span></div>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="header" id="header">
+    <div class="nav container">
+      <a href="#home" class="brand" aria-label="Ayush Kumar — home">
+        <img src="assets/img/ayu_logo.png" alt="" width="36" height="36">
+        <span class="brand__text">ayush<span>.kumar</span></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary navigation">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#experience" class="nav__link">Experience</a>
+        <a href="#work" class="nav__link">Work</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button type="button" class="icon-btn nav__palette" id="palette-open" aria-label="Open command menu" title="Command menu (⌘K)">
+          <svg><use href="#i-search"/></svg>
+        </button>
+        <button type="button" class="icon-btn theme-toggle" id="theme-toggle" aria-label="Switch theme">
+          <svg class="icon-sun"><use href="#i-sun"/></svg>
+          <svg class="icon-moon"><use href="#i-moon"/></svg>
+        </button>
+        <a href="#contact" class="btn btn--primary btn--sm nav__cta" data-magnetic>
+          Let's talk
+          <svg><use href="#i-arrow-right"/></svg>
+        </a>
+        <button type="button" class="icon-btn nav__burger" id="menu-open" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="burger-icon"><use href="#i-menu"/></svg>
+          <svg class="burger-close"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MOBILE MENU ==================== -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu__inner container">
+      <p class="mobile-menu__eyebrow">Menu / 2026</p>
+      <nav aria-label="Mobile navigation">
+        <a href="#home" class="mobile-menu__link"><span>01</span>Home<svg><use href="#i-arrow-right"/></svg></a>
+        <a href="#about" class="mobile-menu__link"><span>02</span>About<svg><use href="#i-arrow-right"/></svg></a>
+        <a href="#skills" class="mobile-menu__link"><span>03</span>Skills<svg><use href="#i-arrow-right"/></svg></a>
+        <a href="#experience" class="mobile-menu__link"><span>04</span>Experience<svg><use href="#i-arrow-right"/></svg></a>
+        <a href="#services" class="mobile-menu__link"><span>05</span>Services<svg><use href="#i-arrow-right"/></svg></a>
+        <a href="#work" class="mobile-menu__link"><span>06</span>Work<svg><use href="#i-arrow-right"/></svg></a>
+        <a href="#playground" class="mobile-menu__link"><span>07</span>Playground<svg><use href="#i-arrow-right"/></svg></a>
+        <a href="#contact" class="mobile-menu__link"><span>08</span>Contact<svg><use href="#i-arrow-right"/></svg></a>
+      </nav>
+      <div class="mobile-menu__foot">
+        <a href="mailto:ayushkumarsep1998@gmail.com">ayushkumarsep1998@gmail.com</a>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/ayush-kumar-b06b93176/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+          <a href="https://github.com/Iamayu17" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a>
+          <a href="https://www.instagram.com/ayu.sh.kumar/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="home">
+      <canvas class="hero__canvas" id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <p class="hero__eyebrow" data-reveal>
+            <span class="status-dot" aria-hidden="true"></span>
+            Available for new opportunities
+            <span class="hero__eyebrow-sep">/</span>
+            Pune, India
+          </p>
+
+          <h1 class="hero__title">
+            <span class="hero__line" data-reveal style="--delay:.05s">Full-Stack</span>
+            <span class="hero__line hero__line--outline" data-reveal style="--delay:.12s">Developer<span class="hero__dot">.</span></span>
+          </h1>
+
+          <p class="hero__type" data-reveal style="--delay:.18s">
+            <span class="hero__prompt" aria-hidden="true">&gt;_</span>
+            <span id="role-text">Full-Stack Developer</span><span class="caret" aria-hidden="true"></span>
+          </p>
+
+          <p class="hero__desc" data-reveal style="--delay:.24s">
+            Hi, I'm <strong>Ayush Kumar</strong> — I build scalable AEM platforms, responsive
+            React &amp; Angular interfaces, and the Java services behind them.
+            High-level experience, quality work.
+          </p>
+
+          <div class="hero__cta" data-reveal style="--delay:.3s">
+            <a href="#work" class="btn btn--primary" data-magnetic>
+              Explore my work
+              <svg><use href="#i-arrow-right"/></svg>
+            </a>
+            <a href="assets/pdf/Ayush_AEM_FULLSTACK_CGI.pdf" download class="btn btn--ghost" data-magnetic>
+              Download CV
+              <svg><use href="#i-download"/></svg>
+            </a>
+          </div>
+
+          <div class="hero__foot" data-reveal style="--delay:.36s">
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/ayush-kumar-b06b93176/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+              <a href="https://github.com/Iamayu17" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a>
+              <a href="https://www.instagram.com/ayu.sh.kumar/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a>
+              <a href="mailto:ayushkumarsep1998@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a>
+            </div>
+            <a href="#about" class="hero__scroll">
+              <span>Scroll to explore</span>
+              <svg><use href="#i-arrow-down"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__orbit" aria-hidden="true">
+            <svg viewBox="0 0 120 120" class="orbit__svg">
+              <defs>
+                <path id="orbitPath" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/>
+              </defs>
+              <text><textPath href="#orbitPath">OPEN TO WORK · FULL-STACK · AEM · </textPath></text>
+            </svg>
+            <span class="orbit__core"><svg><use href="#i-arrow-down"/></svg></span>
+          </div>
+
+          <div class="idcard" data-tilt data-cursor="Hi">
+            <div class="idcard__top">
+              <span>AYU—01</span>
+              <span class="idcard__status"><i aria-hidden="true"></i> LIVE</span>
+            </div>
+            <div class="idcard__photo">
+              <img src="assets/img/perfil.png" alt="Portrait of Ayush Kumar" width="424" height="480">
+            </div>
+            <div class="idcard__meta">
+              <div>
+                <strong>Ayush Kumar</strong>
+                <span>Full-Stack Developer</span>
+              </div>
+              <div class="idcard__stamp"><b>5+</b><small>YEARS</small></div>
+            </div>
+            <div class="idcard__barcode" aria-hidden="true"></div>
+            <div class="idcard__foot">
+              <span>PUNE, IN</span>
+              <span>ADOBE CERTIFIED</span>
+            </div>
+          </div>
+
+          <div class="float-chip float-chip--a">AEM 6.5 &amp; Cloud</div>
+          <div class="float-chip float-chip--b">React + Angular</div>
+          <div class="float-chip float-chip--c">Java · Sling · OSGi</div>
+
+          <div class="hero__code" aria-hidden="true">
+            <div class="hero__code-bar"><span></span><span></span><span></span><em>ayush.js</em></div>
+            <pre><code><span class="c-key">const</span> ayush = {
+  role: <span class="c-str">"full-stack developer"</span>,
+  stack: [<span class="c-str">"Java"</span>, <span class="c-str">"AEM"</span>, <span class="c-str">"React"</span>],
+  based: <span class="c-str">"Pune, India"</span>,
+  openToWork: <span class="c-bool">true</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MARQUEE ==================== -->
+    <div class="marquee" aria-label="Technologies I work with">
+      <div class="marquee__track">
+        <span class="marquee__group">
+          <span>Java</span><i>✦</i><span>AEM Sites</span><i>✦</i><span>AEM Forms</span><i>✦</i><span>Apache Sling</span><i>✦</i><span>OSGi</span><i>✦</i><span>React</span><i>✦</i><span>Angular</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Node.js</span><i>✦</i><span>Bootstrap</span><i>✦</i><span>Material UI</span><i>✦</i><span>REST APIs</span><i>✦</i><span>Docker</span><i>✦</i><span>Jenkins</span><i>✦</i><span>Figma</span><i>✦</i>
+        </span>
+        <span class="marquee__group" aria-hidden="true">
+          <span>Java</span><i>✦</i><span>AEM Sites</span><i>✦</i><span>AEM Forms</span><i>✦</i><span>Apache Sling</span><i>✦</i><span>OSGi</span><i>✦</i><span>React</span><i>✦</i><span>Angular</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Node.js</span><i>✦</i><span>Bootstrap</span><i>✦</i><span>Material UI</span><i>✦</i><span>REST APIs</span><i>✦</i><span>Docker</span><i>✦</i><span>Jenkins</span><i>✦</i><span>Figma</span><i>✦</i>
+        </span>
+      </div>
+    </div>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal><span>01</span> About me</p>
+          <h2 class="section-title" data-reveal>Engineer by trade.<br>Designer by <em>instinct.</em></h2>
+          <p class="section-lead" data-reveal>Adobe Certified full-stack developer with 5+ years building scalable AEM platforms, responsive interfaces, and the Java services that power them.</p>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__visual" data-reveal>
+            <div class="about__frame" data-tilt data-cursor="Pune">
+              <img src="assets/img/about.jpg" alt="Ayush Kumar standing in Pune" width="700" height="620" loading="lazy">
+              <div class="about__badge"><b>5+</b><span>years of<br>shipping</span></div>
+            </div>
+            <div class="about__stamp">
+              <svg><use href="#i-award"/></svg>
+              <div><strong>Adobe Certified Expert</strong><span>AEM Sites Developer · 2023</span></div>
+            </div>
+          </div>
+
+          <div class="about__body">
+            <p data-reveal>I'm a Pune-based developer who started in UI/UX and frontend, then went deeper into the back end — which is why I care as much about clean Sling Models as I do about the last four pixels of spacing.</p>
+            <p data-reveal>At CGI I build editable templates, custom components, and reusable services for AEM Forms — plus the API integrations they depend on. Before that I shipped AEM experiences at Cognizant and Angular SPAs at ITC Infotech. I'm happiest when a complex requirement turns into something simple to use.</p>
+
+            <ul class="about__facts" data-reveal>
+              <li><span>Currently</span><strong>Software Engineer @ CGI</strong></li>
+              <li><span>Focus</span><strong>AEM · Java · React · Angular</strong></li>
+              <li><span>Based in</span><strong>Pune, Maharashtra</strong></li>
+            </ul>
+
+            <div class="stats" data-reveal>
+              <div class="stat"><span class="stat__num" data-count="5" data-suffix="+">5+</span><span class="stat__label">Years experience</span></div>
+              <div class="stat"><span class="stat__num" data-count="7" data-suffix="+">7+</span><span class="stat__label">Projects delivered</span></div>
+              <div class="stat"><span class="stat__num" data-count="3">3</span><span class="stat__label">Companies worked</span></div>
+              <div class="stat"><span class="stat__num" data-count="2">2</span><span class="stat__label">Certifications</span></div>
+            </div>
+
+            <div class="about__actions" data-reveal>
+              <a href="assets/pdf/Ayush_AEM_FULLSTACK_CGI.pdf" download class="btn btn--primary">
+                Download CV
+                <svg><use href="#i-download"/></svg>
+              </a>
+              <a href="assets/pdf/Ayush-FULLSTACK-DEVELOPER.pdf" download class="btn btn--ghost">
+                Full-stack CV
+                <svg><use href="#i-download"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal><span>02</span> Skills</p>
+          <h2 class="section-title" data-reveal>A stack for the<br><em>whole journey.</em></h2>
+          <p class="section-lead" data-reveal>From the component in the browser to the OSGi service behind it — here's where I'm strongest.</p>
+        </div>
+
+        <div class="skills__layout">
+          <div class="skills__tabs" role="tablist" aria-label="Skill categories" data-reveal>
+            <button class="skill-tab is-active" id="tab-frontend" role="tab" aria-selected="true" aria-controls="panel-frontend" tabindex="0" data-tab="frontend">
+              <span class="skill-tab__num">01</span>
+              <span class="skill-tab__info"><strong>Frontend</strong><small>React, Angular &amp; the web</small></span>
+              <svg><use href="#i-arrow-right"/></svg>
+            </button>
+            <button class="skill-tab" id="tab-backend" role="tab" aria-selected="false" aria-controls="panel-backend" tabindex="-1" data-tab="backend">
+              <span class="skill-tab__num">02</span>
+              <span class="skill-tab__info"><strong>Backend</strong><small>Java &amp; Node.js</small></span>
+              <svg><use href="#i-arrow-right"/></svg>
+            </button>
+            <button class="skill-tab" id="tab-aem" role="tab" aria-selected="false" aria-controls="panel-aem" tabindex="-1" data-tab="aem">
+              <span class="skill-tab__num">03</span>
+              <span class="skill-tab__info"><strong>AEM &amp; integration</strong><small>Sites, Forms &amp; services</small></span>
+              <svg><use href="#i-arrow-right"/></svg>
+            </button>
+            <button class="skill-tab" id="tab-design" role="tab" aria-selected="false" aria-controls="panel-design" tabindex="-1" data-tab="design">
+              <span class="skill-tab__num">04</span>
+              <span class="skill-tab__info"><strong>Design</strong><small>Tools for the craft</small></span>
+              <svg><use href="#i-arrow-right"/></svg>
+            </button>
+          </div>
+
+          <div class="skills__panels" data-reveal>
+            <div class="skill-panel is-active" id="panel-frontend" role="tabpanel" aria-labelledby="tab-frontend" tabindex="0">
+              <div class="skill-panel__head"><span>Frontend</span><em>More than 2 years</em></div>
+              <div class="skill"><div class="skill__top"><span>HTML</span><span class="skill__pct">90%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:90%;--i:0"></span></div></div>
+              <div class="skill"><div class="skill__top"><span>CSS</span><span class="skill__pct">80%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:80%;--i:1"></span></div></div>
+              <div class="skill"><div class="skill__top"><span>JavaScript</span><span class="skill__pct">80%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:80%;--i:2"></span></div></div>
+              <div class="skill"><div class="skill__top"><span>React</span><span class="skill__pct">80%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:80%;--i:3"></span></div></div>
+              <div class="skill"><div class="skill__top"><span>Angular</span><span class="skill__pct">55%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:55%;--i:4"></span></div></div>
+            </div>
+
+            <div class="skill-panel" id="panel-backend" role="tabpanel" aria-labelledby="tab-backend" tabindex="0" hidden>
+              <div class="skill-panel__head"><span>Backend</span><em>3+ years</em></div>
+              <div class="skill"><div class="skill__top"><span>Java</span><span class="skill__pct">60%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:60%;--i:0"></span></div></div>
+              <div class="skill"><div class="skill__top"><span>Node.js</span><span class="skill__pct">30%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:30%;--i:1"></span></div></div>
+              <p class="skill-panel__note">Plus JUnit, REST APIs, and Java servlets in production AEM environments.</p>
+            </div>
+
+            <div class="skill-panel" id="panel-aem" role="tabpanel" aria-labelledby="tab-aem" tabindex="0" hidden>
+              <div class="skill-panel__head"><span>AEM &amp; integration</span><em>4+ years</em></div>
+              <div class="skill"><div class="skill__top"><span>AEM Sites</span><span class="skill__pct">90%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:90%;--i:0"></span></div></div>
+              <div class="skill"><div class="skill__top"><span>AEM Integration</span><span class="skill__pct">85%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:85%;--i:1"></span></div></div>
+              <div class="skill"><div class="skill__top"><span>AEM Forms</span><span class="skill__pct">65%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:65%;--i:2"></span></div></div>
+              <p class="skill-panel__note">AEM 6.5 &amp; Cloud, Sling Models, editable templates, OSGi services, REST/GraphQL integrations, and headless delivery.</p>
+            </div>
+
+            <div class="skill-panel" id="panel-design" role="tabpanel" aria-labelledby="tab-design" tabindex="0" hidden>
+              <div class="skill-panel__head"><span>Design</span><em>More than 3 years</em></div>
+              <div class="skill"><div class="skill__top"><span>Illustrator</span><span class="skill__pct">80%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:80%;--i:0"></span></div></div>
+              <div class="skill"><div class="skill__top"><span>Photoshop</span><span class="skill__pct">80%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:80%;--i:1"></span></div></div>
+              <div class="skill"><div class="skill__top"><span>Figma</span><span class="skill__pct">60%</span></div><div class="skill__bar"><span class="skill__fill" style="--p:60%;--i:2"></span></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="toolbox" data-reveal>
+          <p class="toolbox__label">Also in the toolbox</p>
+          <ul class="toolbox__list">
+            <li>AEM Integration</li><li>AEM Cloud</li><li>Sling</li><li>OSGi</li><li>HTL</li><li>Servlets</li><li>JUnit</li><li>REST APIs</li><li>GraphQL</li><li>Content Fragments</li><li>MSM</li><li>Workflows</li><li>JCR</li><li>CRXDE</li><li>SQL</li><li>Git</li><li>Maven</li><li>Jenkins</li><li>Docker</li><li>CI/CD</li><li>Bootstrap</li><li>Material UI</li><li>TypeScript</li><li>JIRA</li><li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE ==================== -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal><span>03</span> Experience &amp; education</p>
+          <h2 class="section-title" data-reveal>Five years. Three teams.<br>One <em>obsession.</em></h2>
+          <p class="section-lead" data-reveal>Three teams, five years, and one throughline: shipping AEM platforms, Java services, and front ends that hold up in production.</p>
+        </div>
+
+        <div class="xp__switch" role="tablist" aria-label="Work history or education" data-reveal>
+          <button type="button" class="switch-btn is-active" id="xp-tab-work" role="tab" aria-selected="true" aria-controls="xp-work" data-xp-tab="work">Work history</button>
+          <button type="button" class="switch-btn" id="xp-tab-education" role="tab" aria-selected="false" aria-controls="xp-education" data-xp-tab="education">Education &amp; certifications</button>
+        </div>
+
+        <div class="xp__panels">
+          <div class="xp-list is-active" id="xp-work" role="tabpanel" aria-labelledby="xp-tab-work">
+            <article class="xp is-open" data-reveal>
+              <div class="xp__rail"><span class="xp__dot"></span><span class="xp__line"></span></div>
+              <div class="xp__card">
+                <button type="button" class="xp__head" aria-expanded="true" aria-controls="xp-body-1">
+                  <span class="xp__logo">CGI</span>
+                  <span class="xp__title"><strong>Software Engineer</strong><span>CGI · Pune</span></span>
+                  <span class="xp__date">Sep 2024 — Present</span>
+                  <svg class="xp__chevron"><use href="#i-chevron"/></svg>
+                </button>
+                <div class="xp__wrap" id="xp-body-1">
+                  <div class="xp__body">
+                    <ul class="xp__points">
+                      <li>Deliver AEM Sites and AEM Forms features end to end — editable templates, custom components, Sling Models, OSGi services, and React/Angular front ends.</li>
+                      <li>Built a reusable, template-driven Email Service for multiple AEM Forms, so content and layout are configured per form instead of duplicated in code.</li>
+                      <li>Integrated an AEM search experience using Sling Models and backend services, with JUnit coverage across models, services, and business logic.</li>
+                      <li>Connected AEM with the AddressQual API to drive dynamic routing and personalized buy-flow pricing cards.</li>
+                      <li>Work across the full delivery cycle — Java/Sling services, React/Angular components, and page authoring in AEM Sites.</li>
+                    </ul>
+                    <ul class="chips"><li>AEM Sites</li><li>AEM Forms</li><li>Sling Models</li><li>OSGi</li><li>React</li><li>Angular</li><li>JUnit</li><li>REST APIs</li></ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="xp" data-reveal>
+              <div class="xp__rail"><span class="xp__dot"></span><span class="xp__line"></span></div>
+              <div class="xp__card">
+                <button type="button" class="xp__head" aria-expanded="false" aria-controls="xp-body-2">
+                  <span class="xp__logo">CTS</span>
+                  <span class="xp__title"><strong>Programmer Analyst</strong><span>Cognizant · Pune</span></span>
+                  <span class="xp__date">Jun 2022 — Sep 2024</span>
+                  <svg class="xp__chevron"><use href="#i-chevron"/></svg>
+                </button>
+                <div class="xp__wrap" id="xp-body-2">
+                  <div class="xp__body">
+                    <ul class="xp__points">
+                      <li>Developed scalable AEM components, editable templates, and workflows for enterprise content requirements.</li>
+                      <li>Worked deeply across AEM WCM, CRXDE, JCR, Apache Sling, Sling Models, Content &amp; Experience Fragments, MSM, Tagging, Assets, Queries, and Indexing.</li>
+                      <li>Improved site performance through caching, indexing, and query tuning; deployed Java servlets for server-side HTTP handling.</li>
+                      <li>Shipped through Docker, Maven, Jenkins, CI/CD, Git, GitHub, and Bitbucket with repeatable builds and predictable releases.</li>
+                      <li>Contributed to a complex AEM migration (Abbott) recognised with the 2023–24 Technical Excellence Award for early delivery.</li>
+                    </ul>
+                    <ul class="chips"><li>AEM 6.5</li><li>Sling</li><li>Sling Models</li><li>JCR</li><li>OSGi</li><li>MSM</li><li>Docker</li><li>Jenkins</li><li>CI/CD</li></ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="xp" data-reveal>
+              <div class="xp__rail"><span class="xp__dot"></span><span class="xp__line"></span></div>
+              <div class="xp__card">
+                <button type="button" class="xp__head" aria-expanded="false" aria-controls="xp-body-3">
+                  <span class="xp__logo">ITC</span>
+                  <span class="xp__title"><strong>Associate IT Consultant</strong><span>ITC Infotech · Pune</span></span>
+                  <span class="xp__date">Jan 2021 — Jun 2022</span>
+                  <svg class="xp__chevron"><use href="#i-chevron"/></svg>
+                </button>
+                <div class="xp__wrap" id="xp-body-3">
+                  <div class="xp__body">
+                    <ul class="xp__points">
+                      <li>Built an Angular single-page application for Columbia University, from UI/UX wireframes and prototypes to responsive production screens.</li>
+                      <li>Developed responsive interfaces with HTML5, CSS3, JavaScript, TypeScript, Angular, Bootstrap, Material UI, LESS/SASS, and NPM/Webpack.</li>
+                      <li>Turned UI/UX designs into reusable components with consistent behaviour across breakpoints.</li>
+                      <li>Worked in Agile sprints and used JIRA to track defects, prioritise fixes, and reduce downtime.</li>
+                    </ul>
+                    <ul class="chips"><li>Angular</li><li>TypeScript</li><li>JavaScript</li><li>Bootstrap</li><li>Material UI</li><li>UI/UX</li><li>JIRA</li></ul>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="xp-list" id="xp-education" role="tabpanel" aria-labelledby="xp-tab-education" hidden>
+            <article class="edu" data-reveal>
+              <div class="edu__icon"><svg><use href="#i-graduation"/></svg></div>
+              <div class="edu__main">
+                <span class="edu__date">2016 — 2020</span>
+                <h3>B.Tech, Computer Science</h3>
+                <p>Kalinga Institute of Industrial Technology</p>
+              </div>
+              <span class="edu__score">CGPA 8.88</span>
+            </article>
+
+            <article class="edu" data-reveal>
+              <div class="edu__icon"><svg><use href="#i-graduation"/></svg></div>
+              <div class="edu__main">
+                <span class="edu__date">2014 — 2016</span>
+                <h3>Higher Secondary School</h3>
+                <p>Taywade Junior Science College</p>
+              </div>
+              <span class="edu__score">81.38%</span>
+            </article>
+
+            <article class="edu" data-reveal>
+              <div class="edu__icon"><svg><use href="#i-graduation"/></svg></div>
+              <div class="edu__main">
+                <span class="edu__date">2012 — 2014</span>
+                <h3>Secondary School Certificate</h3>
+                <p>St Vincent Pallotti School</p>
+              </div>
+              <span class="edu__score">CGPA 9.2</span>
+            </article>
+
+            <div class="certs" data-reveal>
+              <article class="cert">
+                <svg><use href="#i-award"/></svg>
+                <div><strong>Adobe Certified Expert</strong><span>AEM Sites Developer · 2023</span></div>
+              </article>
+              <article class="cert">
+                <svg><use href="#i-award"/></svg>
+                <div><strong>Agile Development Methodologies</strong><span>Certification · 2021</span></div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="recognitions">
+          <p class="recognitions__label" data-reveal>Recognition along the way</p>
+          <div class="recognitions__grid">
+            <article class="recognition" data-reveal>
+              <span class="recognition__year">2023—2024</span>
+              <h3>Technical Excellence</h3>
+              <p>Recognized for delivering a complex AEM migration project ahead of schedule.</p>
+              <svg><use href="#i-star"/></svg>
+            </article>
+            <article class="recognition" data-reveal>
+              <span class="recognition__year">2022—2023</span>
+              <h3>Client Appreciation</h3>
+              <p>Direct client feedback for exceptional problem-solving and delivery quality.</p>
+              <svg><use href="#i-star"/></svg>
+            </article>
+            <article class="recognition" data-reveal>
+              <span class="recognition__year">2021—2022</span>
+              <h3>Star Performer</h3>
+              <p>Outstanding commitment and world-class outcomes for the QVC client side.</p>
+              <svg><use href="#i-star"/></svg>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES ==================== -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal><span>04</span> Services</p>
+          <h2 class="section-title" data-reveal>What I can<br><em>build with you.</em></h2>
+          <p class="section-lead" data-reveal>Three ways I usually plug into a team — from the first wireframe to production-ready AEM.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service" data-reveal data-spotlight>
+            <div class="service__top">
+              <span class="service__num">01</span>
+              <svg class="service__icon"><use href="#i-palette"/></svg>
+            </div>
+            <h3>UI/UX<br>Design</h3>
+            <p>Interfaces that feel obvious. From wireframes to polished, accessible UI — I design in Figma and build what I design.</p>
+            <button type="button" class="link-btn" data-service-open="service-ui">Explore service <svg><use href="#i-arrow-right"/></svg></button>
+          </article>
+
+          <article class="service" data-reveal style="--delay:.08s" data-spotlight>
+            <div class="service__top">
+              <span class="service__num">02</span>
+              <svg class="service__icon"><use href="#i-code"/></svg>
+            </div>
+            <h3>Frontend<br>Development</h3>
+            <p>Fast, responsive front ends in React, Angular, HTML, CSS, and JavaScript — built to scale and easy to maintain.</p>
+            <button type="button" class="link-btn" data-service-open="service-frontend">Explore service <svg><use href="#i-arrow-right"/></svg></button>
+          </article>
+
+          <article class="service" data-reveal style="--delay:.16s" data-spotlight>
+            <div class="service__top">
+              <span class="service__num">03</span>
+              <svg class="service__icon"><use href="#i-layers"/></svg>
+            </div>
+            <h3>AEM<br>Development</h3>
+            <p>End-to-end AEM delivery: components, editable templates, Forms, Sling Models, and the Java services behind them.</p>
+            <button type="button" class="link-btn" data-service-open="service-aem">Explore service <svg><use href="#i-arrow-right"/></svg></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service dialogs -->
+    <dialog class="modal" id="service-ui" aria-labelledby="service-ui-title">
+      <div class="modal__inner">
+        <button type="button" class="modal__close" data-dialog-close aria-label="Close dialog"><svg><use href="#i-close"/></svg></button>
+        <p class="eyebrow">Service 01</p>
+        <h3 id="service-ui-title">UI/UX Design</h3>
+        <p class="modal__lead">Design that starts with the problem, not the pixels. I map flows, build wireframes, prototype interactions, and hand off something a developer can actually build.</p>
+        <ul class="modal__list">
+          <li><svg><use href="#i-check"/></svg>I develop the user interface</li>
+          <li><svg><use href="#i-check"/></svg>Web page development</li>
+          <li><svg><use href="#i-check"/></svg>I create UX element interactions</li>
+          <li><svg><use href="#i-check"/></svg>Create all types of logos</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary" data-dialog-close>Start a project <svg><use href="#i-arrow-right"/></svg></a>
+      </div>
+    </dialog>
+
+    <dialog class="modal" id="service-frontend" aria-labelledby="service-frontend-title">
+      <div class="modal__inner">
+        <button type="button" class="modal__close" data-dialog-close aria-label="Close dialog"><svg><use href="#i-close"/></svg></button>
+        <p class="eyebrow">Service 02</p>
+        <h3 id="service-frontend-title">Frontend Development</h3>
+        <p class="modal__lead">Component-driven interfaces that stay fast as they grow. Semantic markup, thoughtful state management, and responsive behaviour baked in from the start.</p>
+        <ul class="modal__list">
+          <li><svg><use href="#i-check"/></svg>I develop the user interface</li>
+          <li><svg><use href="#i-check"/></svg>Attractive web pages using SPA frameworks such as Angular</li>
+          <li><svg><use href="#i-check"/></svg>React components, Bootstrap, and Material UI</li>
+          <li><svg><use href="#i-check"/></svg>Responsive, accessible layouts that work everywhere</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary" data-dialog-close>Start a project <svg><use href="#i-arrow-right"/></svg></a>
+      </div>
+    </dialog>
+
+    <dialog class="modal" id="service-aem" aria-labelledby="service-aem-title">
+      <div class="modal__inner">
+        <button type="button" class="modal__close" data-dialog-close aria-label="Close dialog"><svg><use href="#i-close"/></svg></button>
+        <p class="eyebrow">Service 03</p>
+        <h3 id="service-aem-title">AEM Development</h3>
+        <p class="modal__lead">Full-stack AEM delivery — editable templates and authoring experiences, plus the OSGi services, APIs, and integrations that make them run.</p>
+        <ul class="modal__list">
+          <li><svg><use href="#i-check"/></svg>AEM Sites</li>
+          <li><svg><use href="#i-check"/></svg>AEM Forms</li>
+          <li><svg><use href="#i-check"/></svg>AEM Forms using RESTful APIs</li>
+          <li><svg><use href="#i-check"/></svg>Java APIs invoking AEM Forms lifecycle APIs</li>
+          <li><svg><use href="#i-check"/></svg>Editable templates, custom components, and Sling Models</li>
+          <li><svg><use href="#i-check"/></svg>AEM Integration — REST, GraphQL, third-party APIs, and Adobe Analytics</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary" data-dialog-close>Start a project <svg><use href="#i-arrow-right"/></svg></a>
+      </div>
+    </dialog>
+
+    <!-- ==================== WORK ==================== -->
+    <section class="section work" id="work">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal><span>05</span> Selected work</p>
+          <h2 class="section-title" data-reveal>Things I've built<br>and <em>written.</em></h2>
+          <p class="section-lead" data-reveal>A mix of production thinking and side quests: AEM integration guides, Angular builds, and brand work.</p>
+        </div>
+
+        <div class="work__bar" data-reveal>
+          <div class="filters" role="group" aria-label="Filter projects">
+            <button type="button" class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="filter" data-filter="aem" aria-pressed="false">AEM</button>
+            <button type="button" class="filter" data-filter="frontend" aria-pressed="false">Frontend</button>
+            <button type="button" class="filter" data-filter="design" aria-pressed="false">Design</button>
+          </div>
+          <span class="work__count"><span id="project-count">4</span> projects</span>
+        </div>
+
+        <div class="work__grid">
+          <article class="project project--wide" data-tags="aem" data-reveal data-tilt>
+            <div class="project__media">
+              <img src="assets/img/AEM_Logo.png" alt="Adobe Experience Manager logo" width="307" height="176" loading="lazy">
+              <span class="project__index">01</span>
+              <span class="project__badge">Featured</span>
+            </div>
+            <div class="project__body">
+              <p class="project__kicker">AEM · Integration &amp; interview prep</p>
+              <h3 class="project__title">AEM Integration &amp; Interview Guide</h3>
+              <p class="project__desc">A live guide to AEM architecture, integration patterns, and Adobe Analytics — with interview answers and code examples across Sling, OSGi, GraphQL, and headless delivery.</p>
+              <ul class="chips"><li>AEM Integration</li><li>Sling</li><li>OSGi</li><li>GraphQL</li><li>Adobe Analytics</li></ul>
+              <a href="https://iamayu17.github.io/Adobe-Experience-Manager-AEM-/" target="_blank" rel="noopener" class="link-btn">Open the live guide <svg><use href="#i-external"/></svg></a>
+            </div>
+          </article>
+
+          <article class="project" data-tags="frontend" data-reveal data-tilt>
+            <div class="project__media">
+              <img src="assets/img/portfolio3.jpg" alt="Laptop and phone on a desk" width="640" height="420" loading="lazy">
+              <span class="project__index">02</span>
+            </div>
+            <div class="project__body">
+              <p class="project__kicker">Angular · Frontend</p>
+              <h3 class="project__title">Flight Search Website</h3>
+              <p class="project__desc">A responsive flight search experience built with Angular and JSON APIs, with two-way trip planning and price filtering.</p>
+              <ul class="chips"><li>Angular</li><li>JSON APIs</li><li>Responsive</li></ul>
+              <button type="button" class="link-btn" data-project-open="project-flight">Read case study <svg><use href="#i-arrow-right"/></svg></button>
+            </div>
+          </article>
+
+          <article class="project" data-tags="frontend" data-reveal data-tilt style="--delay:.08s">
+            <div class="project__media">
+              <img src="assets/img/portfolio1.jpg" alt="A glowing workstation setup" width="640" height="420" loading="lazy">
+              <span class="project__index">03</span>
+            </div>
+            <div class="project__body">
+              <p class="project__kicker">Bootstrap 5 · React</p>
+              <h3 class="project__title">Online Course Website</h3>
+              <p class="project__desc">An online course website built with Bootstrap 5 and media queries, with React fundamentals applied to reusable UI.</p>
+              <ul class="chips"><li>Bootstrap 5</li><li>React</li><li>UI</li></ul>
+              <button type="button" class="link-btn" data-project-open="project-course">Read case study <svg><use href="#i-arrow-right"/></svg></button>
+            </div>
+          </article>
+
+          <article class="project project--wide project--flip" data-tags="design" data-reveal data-tilt>
+            <div class="project__media project__media--logo">
+              <img src="assets/img/ayu_logo.png" alt="The AYU geometric logo mark" width="1797" height="1797" loading="lazy">
+              <span class="project__index">04</span>
+            </div>
+            <div class="project__body">
+              <p class="project__kicker">Identity · Design</p>
+              <h3 class="project__title">Brand &amp; Logo Design</h3>
+              <p class="project__desc">A personal identity built around a custom geometric "AYU" wordmark — bold letterforms, a tight palette, and a mark that works small.</p>
+              <ul class="chips"><li>Identity</li><li>Illustrator</li><li>Photoshop</li><li>Figma</li></ul>
+              <button type="button" class="link-btn" data-project-open="project-brand">View the design <svg><use href="#i-arrow-right"/></svg></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project dialogs -->
+    <dialog class="modal" id="project-flight" aria-labelledby="project-flight-title">
+      <div class="modal__inner">
+        <button type="button" class="modal__close" data-dialog-close aria-label="Close dialog"><svg><use href="#i-close"/></svg></button>
+        <p class="eyebrow">Case study · Frontend</p>
+        <h3 id="project-flight-title">Flight Search Website</h3>
+        <p class="modal__lead">A responsive flight search site built to make comparing options feel quick instead of overwhelming.</p>
+        <ul class="modal__list">
+          <li><svg><use href="#i-check"/></svg>Angular application powered by JSON APIs</li>
+          <li><svg><use href="#i-check"/></svg>Two-way flight trip planning flow</li>
+          <li><svg><use href="#i-check"/></svg>Price filtering and responsive result layouts</li>
+        </ul>
+        <ul class="chips"><li>Angular</li><li>JavaScript</li><li>JSON APIs</li><li>Responsive UI</li></ul>
+        <a href="#contact" class="btn btn--primary" data-dialog-close>Ask me about it <svg><use href="#i-arrow-right"/></svg></a>
+      </div>
+    </dialog>
+
+    <dialog class="modal" id="project-course" aria-labelledby="project-course-title">
+      <div class="modal__inner">
+        <button type="button" class="modal__close" data-dialog-close aria-label="Close dialog"><svg><use href="#i-close"/></svg></button>
+        <p class="eyebrow">Case study · Frontend</p>
+        <h3 id="project-course-title">Online Course Website</h3>
+        <p class="modal__lead">A course platform front end focused on clean structure, readable content, and a layout that holds up on every screen.</p>
+        <ul class="modal__list">
+          <li><svg><use href="#i-check"/></svg>Built with Bootstrap 5 and custom media queries</li>
+          <li><svg><use href="#i-check"/></svg>Reusable UI patterns from React fundamentals</li>
+          <li><svg><use href="#i-check"/></svg>Mobile-first, content-led layout</li>
+        </ul>
+        <ul class="chips"><li>Bootstrap 5</li><li>React</li><li>HTML &amp; CSS</li><li>Media queries</li></ul>
+        <a href="#contact" class="btn btn--primary" data-dialog-close>Ask me about it <svg><use href="#i-arrow-right"/></svg></a>
+      </div>
+    </dialog>
+
+    <dialog class="modal" id="project-brand" aria-labelledby="project-brand-title">
+      <div class="modal__inner">
+        <button type="button" class="modal__close" data-dialog-close aria-label="Close dialog"><svg><use href="#i-close"/></svg></button>
+        <p class="eyebrow">Case study · Design</p>
+        <h3 id="project-brand-title">Brand &amp; Logo Design</h3>
+        <p class="modal__lead">My personal mark: a geometric AYU wordmark designed to stay legible at favicon size and still feel like a signature at poster size.</p>
+        <ul class="modal__list">
+          <li><svg><use href="#i-check"/></svg>Custom letterforms built from a single geometric system</li>
+          <li><svg><use href="#i-check"/></svg>Warm orange and charcoal palette carried through the site</li>
+          <li><svg><use href="#i-check"/></svg>Illustrator and Photoshop for vector work and refinement</li>
+        </ul>
+        <ul class="chips"><li>Brand identity</li><li>Logo design</li><li>Illustrator</li><li>Photoshop</li></ul>
+        <a href="#contact" class="btn btn--primary" data-dialog-close>Ask me about it <svg><use href="#i-arrow-right"/></svg></a>
+      </div>
+    </dialog>
+
+    <!-- ==================== PLAYGROUND ==================== -->
+    <section class="section playground" id="playground">
+      <div class="container">
+        <div class="playground__grid">
+          <div class="playground__intro">
+            <p class="eyebrow" data-reveal><span>06</span> Playground</p>
+            <h2 class="section-title" data-reveal>The résumé,<br><em>but make it a CLI.</em></h2>
+            <p class="section-lead" data-reveal>Type a command, snoop around, or just type <code>hire</code>. Real developers read the docs.</p>
+            <div class="cmd-chips" data-reveal>
+              <button type="button" class="cmd-chip" data-cmd="help">help</button>
+              <button type="button" class="cmd-chip" data-cmd="about">about</button>
+              <button type="button" class="cmd-chip" data-cmd="skills">skills</button>
+              <button type="button" class="cmd-chip" data-cmd="projects">projects</button>
+              <button type="button" class="cmd-chip" data-cmd="resume">resume</button>
+              <button type="button" class="cmd-chip" data-cmd="hire">hire</button>
+            </div>
+          </div>
+
+          <div class="terminal" data-reveal>
+            <div class="terminal__bar">
+              <div class="terminal__dots" aria-hidden="true"><span></span><span></span><span></span></div>
+              <span class="terminal__title">ayush@portfolio: ~</span>
+              <span class="terminal__hint" aria-hidden="true">zsh</span>
+            </div>
+            <div class="terminal__screen" id="terminal-screen">
+              <div class="terminal__output" id="terminal-output">
+                <div class="term-line term-line--muted">Welcome to ayush.sh — type <span class="term-code">help</span> or tap a command above.</div>
+              </div>
+              <form class="terminal__form" id="terminal-form">
+                <label class="sr-only" for="terminal-input">Terminal command</label>
+                <span class="terminal__prompt" aria-hidden="true">ayush@portfolio ~ %</span>
+                <input id="terminal-input" type="text" autocomplete="off" spellcheck="false" placeholder="help" aria-describedby="terminal-help">
+                <span class="sr-only" id="terminal-help">Type help for a list of commands</span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal><span>07</span> Contact</p>
+          <h2 class="section-title" data-reveal>Have a project in mind?<br>Let's make it <em>real.</em></h2>
+          <p class="section-lead" data-reveal>Open to full-stack and AEM roles, freelance builds, and interesting problems.</p>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__info" data-reveal>
+            <div class="availability"><span class="status-dot" aria-hidden="true"></span> Available for work</div>
+
+            <a href="mailto:ayushkumarsep1998@gmail.com" class="contact__mail">
+              ayushkumarsep1998@gmail.com
+              <svg><use href="#i-arrow-right"/></svg>
+            </a>
+
+            <ul class="contact__rows">
+              <li>
+                <span class="contact__icon"><svg><use href="#i-phone"/></svg></span>
+                <div><span>Call me</span><a href="tel:+919834501361">+91 98345 01361</a></div>
+              </li>
+              <li>
+                <span class="contact__icon"><svg><use href="#i-pin"/></svg></span>
+                <div><span>Location</span><strong>Pune, Maharashtra, India</strong></div>
+              </li>
+              <li>
+                <span class="contact__icon"><svg><use href="#i-folder"/></svg></span>
+                <div><span>Resume</span><a href="assets/pdf/Ayush_AEM_FULLSTACK_CGI.pdf" download>Download the PDF</a></div>
+              </li>
+            </ul>
+
+            <div class="contact__socials">
+              <div class="socials">
+                <a href="https://www.linkedin.com/in/ayush-kumar-b06b93176/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+                <a href="https://github.com/Iamayu17" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a>
+                <a href="https://www.instagram.com/ayu.sh.kumar/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a>
+                <button type="button" class="socials__copy" data-copy-email aria-label="Copy email address"><svg><use href="#i-copy"/></svg></button>
+              </div>
+              <span class="contact__time">Pune · <span id="local-time">--:--</span> IST</span>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate data-reveal>
+            <div class="form-row">
+              <div class="field">
+                <label for="cf-name">Name</label>
+                <input type="text" id="cf-name" name="name" autocomplete="name" placeholder="Your name" required aria-describedby="err-name">
+                <span class="field__error" id="err-name"></span>
+              </div>
+              <div class="field">
+                <label for="cf-mobile">Mobile no.</label>
+                <input type="tel" id="cf-mobile" name="mobile" autocomplete="tel" placeholder="+91 98765 43210" required aria-describedby="err-mobile">
+                <span class="field__error" id="err-mobile"></span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" autocomplete="email" placeholder="you@company.com" required aria-describedby="err-email">
+              <span class="field__error" id="err-email"></span>
+            </div>
+            <div class="field">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" rows="4" placeholder="Tell me a little about the project…" required aria-describedby="err-message"></textarea>
+              <span class="field__error" id="err-message"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full" id="contact-submit">
+              <span class="btn__label">Send message</span>
+              <svg><use href="#i-send"/></svg>
+            </button>
+            <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+            <p class="form__note">Prefer email? <a href="mailto:ayushkumarsep1998@gmail.com">ayushkumarsep1998@gmail.com</a> · <button type="button" class="inline-btn" data-copy-email>Copy address</button></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__cta">
+        <p class="eyebrow">Next step</p>
+        <a href="mailto:ayushkumarsep1998@gmail.com" class="footer__mail">Let's talk <span>↗</span></a>
+      </div>
+
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#home" class="brand" aria-label="Ayush Kumar — home">
+            <img src="assets/img/ayu_logo.png" alt="" width="36" height="36">
+            <span class="brand__text">ayush<span>.kumar</span></span>
+          </a>
+          <p>Full-stack developer building AEM platforms, fast interfaces, and the Java services behind them.</p>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/ayush-kumar-b06b93176/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg><use href="#i-linkedin"/></svg></a>
+            <a href="https://github.com/Iamayu17" target="_blank" rel="noopener" aria-label="GitHub"><svg><use href="#i-github"/></svg></a>
+            <a href="https://www.instagram.com/ayu.sh.kumar/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-instagram"/></svg></a>
+            <a href="mailto:ayushkumarsep1998@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Elsewhere</h4>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/ayush-kumar-b06b93176/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/Iamayu17" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.instagram.com/ayu.sh.kumar/" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://iamayu17.github.io/Adobe-Experience-Manager-AEM-/" target="_blank" rel="noopener">AEM Integration &amp; Interview Guide</a></li>
+            <li><a href="assets/pdf/Ayush_AEM_FULLSTACK_CGI.pdf" download>Resume</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__col--meta">
+          <h4>Currently</h4>
+          <p>Software Engineer at CGI<br>Pune, Maharashtra, India</p>
+          <p class="footer__local">Local time — <span id="local-time-footer">--:--</span> IST</p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span id="year">2026</span> Ayush Kumar. All rights reserved.</p>
+        <a href="#home" class="footer__top">Back to top <svg><use href="#i-arrow-up"/></svg></a>
+      </div>
+
+      <div class="footer__word" aria-hidden="true">AYUSH</div>
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING UI ==================== -->
+  <a href="#home" class="scrollup" id="scroll-up" aria-label="Back to top"><svg><use href="#i-arrow-up"/></svg></a>
+
+  <button type="button" class="chat-toggle" id="chat-toggle" aria-label="Chat with Rio, Ayush's assistant" aria-expanded="false" aria-controls="chat-panel">
+    <svg class="chat-toggle__open"><use href="#i-message"/></svg>
+    <svg class="chat-toggle__close"><use href="#i-close"/></svg>
+    <span class="chat-toggle__ping" aria-hidden="true"></span>
+  </button>
+
+  <aside class="chat" id="chat-panel" role="dialog" aria-label="Chat with Rio" aria-hidden="true">
+    <header class="chat__head">
+      <div class="chat__avatar" aria-hidden="true">R</div>
+      <div class="chat__id"><strong>Rio</strong><span><i aria-hidden="true"></i> Ayush's assistant</span></div>
+      <button type="button" class="icon-btn chat__close" id="chat-close" aria-label="Close chat"><svg><use href="#i-close"/></svg></button>
+    </header>
+    <div class="chat__messages" id="chat-messages" aria-live="polite">
+      <div class="chat__msg chat__msg--bot">Hey — I'm Rio. Ask me about Ayush's services, skills, resume, or how to get in touch.</div>
+    </div>
+    <div class="chat__quick" id="chat-quick">
+      <button type="button" data-q="services">Services</button>
+      <button type="button" data-q="resume">Resume</button>
+      <button type="button" data-q="contact">Contact</button>
+      <button type="button" data-q="availability">Availability</button>
+    </div>
+    <form class="chat__form" id="chat-form">
+      <label class="sr-only" for="chat-input">Message</label>
+      <input type="text" id="chat-input" placeholder="Ask me anything…" autocomplete="off">
+      <button type="submit" aria-label="Send message"><svg><use href="#i-send"/></svg></button>
+    </form>
+  </aside>
+
+  <!-- ==================== COMMAND PALETTE ==================== -->
+  <div class="palette" id="palette" hidden>
+    <div class="palette__backdrop" data-palette-close></div>
+    <div class="palette__panel" role="dialog" aria-modal="true" aria-labelledby="palette-title">
+      <h2 id="palette-title" class="sr-only">Command menu</h2>
+      <div class="palette__search">
+        <svg><use href="#i-search"/></svg>
+        <input type="text" id="palette-input" placeholder="Jump to a section or run an action…" autocomplete="off" aria-controls="palette-list">
+        <kbd>ESC</kbd>
+      </div>
+      <ul class="palette__list" id="palette-list"></ul>
+      <div class="palette__foot">
+        <span><kbd>↑</kbd><kbd>↓</kbd> navigate</span>
+        <span><kbd>↵</kbd> select</span>
+        <span><kbd>⌘</kbd><kbd>K</kbd> toggle</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
